@@ -1,0 +1,121 @@
+.hero {
+  padding: 3.5rem 1.5rem;
+  background: linear-gradient(to right, #eef2ff, #f8fafc);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e40af;
+}
+
+.hero p {
+  margin: 0.8rem auto 0;
+  font-size: 1rem;
+  max-width: 640px;
+  color: #334155;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 1.4rem;
+  padding: 0.65rem 1.6rem;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* ================= FEATURES ================= */
+
+.features {
+  padding: 3rem 1.5rem;
+  background: #ffffff;
+}
+
+.features .feature-card {
+  background: #f9fafb;
+  padding: 1.4rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.06);
+}
+
+.features h3 {
+  color: #1e3a8a;
+  margin-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.features p {
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+/* ================= SEMESTERS ================= */
+
+.semesters {
+  padding: 3rem 1.5rem;
+  background: #f5f7fb;
+}
+
+.semesters h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+  color: #1e293b;
+}
+
+.semester-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1.3rem;
+  max-width: 950px;
+  margin: auto;
+}
+
+.semester-card {
+  background: #ffffff;
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  color: #1e293b;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.semester-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 7px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ================= CTA ================= */
+
+.cta-section {
+  padding: 3rem 1.5rem;
+  background: #1e40af;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.cta-section p {
+  margin: 0.6rem auto 1.3rem;
+  max-width: 560px;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+}

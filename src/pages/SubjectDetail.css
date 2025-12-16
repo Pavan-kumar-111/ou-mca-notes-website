@@ -1,0 +1,196 @@
+.subject-detail {
+  padding: 3rem 1.5rem 3.5rem;
+  background: #f5f7fb;
+  min-height: 70vh;
+}
+
+/* ================= HEADER ================= */
+
+.subject-header {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.subject-code {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #475569;
+  letter-spacing: 0.4px;
+}
+
+.subject-header h1 {
+  margin-top: 0.35rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #1e40af;
+}
+
+.subject-header p {
+  margin-top: 0.25rem;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+/* ================= UNITS SECTION ================= */
+
+.units-section {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.units-section h2 {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.1rem;
+  text-align: center;
+}
+
+/* ================= ALL UNITS DOWNLOAD ================= */
+
+.all-units-download {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.all-units-download a {
+  display: inline-block;
+  padding: 0.65rem 1.4rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 7px;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.all-units-download a:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* ================= UNITS GRID ================= */
+
+.units-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ================= UNIT CARD ================= */
+
+.unit-card {
+  background: #ffffff;
+  padding: 1.2rem 1.4rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.unit-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.1);
+}
+
+.unit-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* ================= UNIT CONTENT ================= */
+
+.unit-desc {
+  margin: 0.45rem 0;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.unit-concepts {
+  margin: 0.45rem 0 0.9rem;
+  padding-left: 1.1rem;
+}
+
+.unit-concepts li {
+  font-size: 0.88rem;
+  color: #374151;
+  margin-bottom: 0.3rem;
+  line-height: 1.45;
+}
+
+/* ================= ACTIONS ================= */
+
+.toggle-btn {
+  margin: 0.55rem 0 0.4rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #2563eb;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+.unit-card a {
+  margin-top: auto;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.unit-card a:hover {
+  text-decoration: underline;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .subject-detail {
+    padding: 2.4rem 1.2rem 3rem;
+  }
+
+  .subject-header h1 {
+    font-size: 1.9rem;
+  }
+
+  .units-section h2 {
+    font-size: 1.35rem;
+  }
+
+  .unit-card {
+    padding: 1.1rem 1.2rem;
+  }
+
+  .all-units-download a {
+    padding: 0.6rem 1.3rem;
+    font-size: 0.88rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .subject-header h1 {
+    font-size: 1.7rem;
+  }
+
+  .subject-header p {
+    font-size: 0.85rem;
+  }
+
+  .unit-card h3 {
+    font-size: 1rem;
+  }
+
+  .toggle-btn,
+  .unit-card a {
+    font-size: 0.85rem;
+  }
+}
